@@ -1,0 +1,165 @@
+body{
+  overflow-x: hidden;
+
+}
+#main{
+  position: relative;
+  height: 800px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 1.1.60.20;
+  margin-top: -100px;
+
+}
+
+#f{
+  position: absolute;
+  width: 800px;
+  height: 750px;
+  border-radius: 50%;
+  /* background-color: red; */
+  border-top: 4px solid rgb(248, 120, 60);
+  animation-name: kp;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+   margin: 50px;
+  transform: rotate(20px 30px);
+  background:  url("../iconsBg.png");
+  background-size: 100%;
+}
+@keyframes kp{
+  from{
+      transform: rotate(360deg);
+  }
+  to{
+     transform: rotate(0deg);
+  }
+}
+#sec{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /* position: fixed; */
+  /* background-color: red; */
+  border-top: 4px solid rgb(14, 158, 158);
+  animation-name: kp2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 50px;
+  transform: rotate(20px 30px);
+}
+@keyframes kp2{
+  from{
+      transform: rotate(360deg);
+  }
+  to{
+     transform: rotate(0deg);
+  }
+}
+
+#f > p{
+  display: flex;
+  color: chocolate;
+  justify-content: center;
+}
+
+.img >img{
+  /* height: 200px; */
+  margin-bottom: 350px;
+  width: 320px;
+  height: 350px;
+  z-index: 50;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: img;
+  
+  /* scale: 1.1.-80 */
+}
+@keyframes img {
+  from{
+      transform: translateY(80px );
+  }
+  /* to{
+      transform: translateY(0%);
+  } */
+}
+
+#main2{
+  position: relative;
+  height: 800px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  /* scale: 1.1.60.20; */
+}
+
+#f2{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  /* background-color: red; */
+  border-top: 4px solid rgb(248, 120, 60);
+  animation-name: kpc2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+   margin: 50px;
+  transform: rotate(20px 30px);
+ 
+}
+@keyframes kpc2{
+  from{
+      transform: rotate(360deg);
+  }
+  to{
+     transform: rotate(0deg);
+  } 
+} 
+#sec2{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /* position: fixed; */
+  /* background-color: red; */
+  border-top: 4px solid rgb(12, 163, 163);
+  animation-name: kp2c;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 50px;
+  transform: rotate(20px 30px);
+}
+@keyframes kp2c{
+  from{
+      transform: rotate(360deg);
+  }
+  to{
+     transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #main2
+  {
+    width: 600px;
+    height: 600px;
+  }
+  #f2
+  {
+    width: 600px;
+    height: 600px;
+  }
+  #sec2
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+}
