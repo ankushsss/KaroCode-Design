@@ -16,11 +16,11 @@ body{
 
 #f{
   position: absolute;
-  width: 800px;
-  height: 750px;
+  width: 750px;
+  height: 650px;
   border-radius: 50%;
   /* background-color: red; */
-  border-top: 4px solid rgb(248, 120, 60);
+  border-top: 4px solid rgb(226, 163, 63);
   animation-name: kp;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -39,8 +39,8 @@ body{
 }
 #sec{
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   /* position: fixed; */
   /* background-color: red; */
@@ -96,13 +96,14 @@ body{
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+  padding-bottom: 50px;
   /* scale: 1.1.60.20; */
 }
 
 #f2{
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
   /* background-color: red; */
   border-top: 4px solid rgb(248, 120, 60);
@@ -111,6 +112,7 @@ body{
   animation-iteration-count: infinite;
    margin: 50px;
   transform: rotate(20px 30px);
+  
  
 }
 @keyframes kpc2{
@@ -158,8 +160,8 @@ body{
   }
   #sec2
   {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
 }

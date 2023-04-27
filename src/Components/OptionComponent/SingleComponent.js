@@ -3,7 +3,7 @@ import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroi
 
 const SingleComponent = ({feature}) => {
   return (
-    <div className="mt-12" style={{background:"black",color:"white",width:"80%",padding:"10px",borderRadius:"10px",marginRight:"auto", marginLeft:" auto"}}>
+    <div className="mt-12" style={{background:"black",color:"white",width:"70%",padding:"10px",borderRadius:"10px",marginRight:"auto", marginLeft:" auto"}}>
     <div key={feature.name} className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
     <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-white sm:shrink-0">
       <feature.icon className="h-8 w-8" aria-hidden="true" />
