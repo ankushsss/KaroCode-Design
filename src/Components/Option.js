@@ -1,29 +1,29 @@
-import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, GiftIcon, QueueListIcon, BookOpenIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Competitive exchange rates',
+    name: 'Comprehensive Curriculum:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
+      'Our courses are carefully crafted to provide you with a comprehensive understanding of the subject matter. We cover all the essential concepts, theories, and tools necessary for success in the industry.',
+    icon: QueueListIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'Hands-On Learning:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
+      'We believe that hands-on learning is the most effective way to learn IT skills. Our courses are designed to be interactive and engaging, with plenty of opportunities for you to practice your new skills and apply them in real-world scenarios.',
+    icon: BookOpenIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Experienced Instructors: ',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Our instructors are experienced IT professionals with a wealth of knowledge and expertise in their respective fields. They are passionate about sharing their knowledge and helping students achieve their goals.',
     icon: BoltIcon,
   },
   {
-    name: 'Mobile notifications',
+    name: 'Career Support:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: DevicePhoneMobileIcon,
+      ' Our courses are designed to help you launch or advance your career in IT. We provide career support services, including resume and cover letter reviews, job search guidance, and networking opportunities, to help you achieve your career goals. ',
+    icon: GiftIcon,
   },
 ]
 
@@ -32,11 +32,10 @@ export default function Option() {
     <div className="bg-white py-24 sm:py-32 lg:py-40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
-          <h2 className="text-lg font-semibold leading-8 text-orange-600">Transactions</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
+          <h2 className="text-lg font-semibold leading-8 text-orange-600">Courses</h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our courses are designed to</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+          provide you with the skills and knowledge you need to succeed in the fast-paced and ever-evolving field of IT. Here's what you can expect from our courses:
           </p>
         </div>
 

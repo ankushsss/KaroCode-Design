@@ -4,11 +4,12 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Landing2 from './Landing2'
 import companyLogo from "../karoCode.png"
+import { BsFillChatSquareFill } from "react-icons/bs";
 
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
+  { name: 'Tutorial', href: '#' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
@@ -18,7 +19,7 @@ export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className=" bg-white">
+    <div className=" bg-white isolate">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -133,14 +134,14 @@ export default function LandingPage() {
         </div>
       </div>
       <main >
-      <Landing2/>
-        {/*<div className="relative px-6 lg:px-8">
+      {/* <Landing2/> */}
+        <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div>
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    Announcing our next round of funding.{' '}
+                  START JOURNEY WITH <span style={{color:"#ff8109"}}>KARO CODE</span>.{' '}
                     <a href="#" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true" />
                       Read more <span aria-hidden="true">&rarr;</span>
@@ -206,7 +207,13 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-                    </div>*/}
+          
+          <div className='flex justify-end text-6xl' >
+          <button style={{width:"50px"}} className=' mb-20 mr-24 .'> <BsFillChatSquareFill/>
+</button>
+        </div>
+                    </div>
+        
       </main>
     
     </div>

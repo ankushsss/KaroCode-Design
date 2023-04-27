@@ -5,9 +5,7 @@ import img from "../karoCode.png"
 const Circular = () => {
   return (
 <div id="main">
-      <div id="f">
-      
-      </div>
+      <div id="f"></div>
       <div id="sec"></div>
       <div class="img">
         <img src={img} alt=""/>
